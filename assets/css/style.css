@@ -1,8 +1,10 @@
 :root {
     --text-color: #333;
+    --header-fixed-height: 90px;
 }
 
 html {
+    scroll-behavior:smooth;
     font-size: 62.5%;
     font-family: 'Poppins', sans-serif;
 }
@@ -62,16 +64,22 @@ body {
 }
 
 /* Header */
-.header {
-    position: relative;
-    height: 100vh;
+
+
+.header-fixed {
+    display: flex;
+    align-items: center;
+    height: var(--header-fixed-height);
+    padding-top: 26px;
+    position: sticky;
+    top:-26px;
+    z-index: 100;
     background-color: #E6F0FF;
 }
 
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 38px;
 }
 
 .navbar__logo {
@@ -118,7 +126,12 @@ body {
 
 /* hero */
 .hero {
-    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    height: calc(100vh - var(--header-fixed-height));
+    background-color: #E6F0FF;
 }
 
 .hero .info {

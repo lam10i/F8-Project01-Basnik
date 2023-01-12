@@ -12,30 +12,32 @@
 </head>
 
 <body>
-    <main>
-        <!-- Header -->
-        <header class="header">
+    <main id="home">
+        <header class="header-fixed">
             <div class="content">
                 <nav class="navbar">
                     <!-- logo -->
-                    <a href=""><img class="navbar__logo" src="./assets/img/logo.svg" alt="Logo"></a>
-
+                    <a href="#!"><img class="navbar__logo" src="./assets/img/logo.svg" alt="Logo"></a>
                     <!-- Navigation list -->
                     <ul class="nav-list">
-                        <li><a href="#!">Home</a></li>
-                        <li><a href="#!">Features</a></li>
-                        <li><a href="#!">Services</a></li>
-                        <li><a href="#!">Resources</a></li>
-                        <li><a href="#!">Contact</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#service">Services</a></li>
+                        <li><a href="#feature">Features</a></li>
+                        <li><a href="#resource">Resources</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
-
+    
                     <!-- Action -->
                     <div class="actions">
                         <a class="sign-in" href="#!">Sign in</a>
                         <a class="btn sign-up" href="#!">Sign up</a>
                     </div>
                 </nav>
-                <div class="hero">
+            </div>
+        </header>
+        <!-- Header -->
+        <div class="hero">
+            <div class="content">
                     <div class="info">
                         <p class="sub-title">Welcome to Besnik Agency</p>
                         <h1 class="title">Discover a place you'll love to live.</h1>
@@ -43,11 +45,9 @@
                             foreclosure deals with one simple search.</p>
                         <a href="#!" class="btn hero-btn">More About Us</a>
                     </div>
-
                     <img src="./assets/img/hero_img.svg" alt="Discover a place you'll love to live." class="hero-img" />
-                </div>
             </div>
-        </header>
+        </div>
 
         <!-- Clients -->
         <div class="clients">
@@ -89,7 +89,7 @@
         </div>
 
         <!-- Guides -->
-        <div class="guides">
+        <div id="service" class="guides">
             <div class="content">
                 <h2 class="content-sub-title">How its works?</h2>
                 <p class="content-title-desc">Everything you need to know when you're looking to buy, rent, or sell -
@@ -131,7 +131,7 @@
         </div>
 
         <!-- Featured -->
-        <div class="featured">
+        <div id="feature" class="featured">
             <div class="content">
                 <header>
                     <h2 class="content-sub-title">Featured Properties</h2>
@@ -213,7 +213,7 @@
         </div>
 
         <!-- stats -->
-        <div class="stats">
+        <div id="resource" class="stats">
             <div class="content">
                 <div class="row">
                     <div class="img-block">
@@ -293,7 +293,7 @@
         </div>
 
         <!-- subscription -->
-        <div class="subscription">
+        <div id="contact" class="subscription">
             <div class="content">
                 <div class="body">
                     <div class="info">
