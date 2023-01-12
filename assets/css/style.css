@@ -199,6 +199,19 @@ body {
     margin-top: 70px;
 }
 
+.clients .company .company-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 204px;
+    height: 91px;
+    border-radius: 8px;
+}
+
+.clients .company .company-link:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
 /* Guides */
 .guides {
     padding-top: 93px;
