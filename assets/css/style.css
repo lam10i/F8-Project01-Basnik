@@ -1,3 +1,9 @@
+.main1 {
+    scroll-behavior:smooth;
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+
 :root {
     --text-color: #333;
     --header-fixed-height: 90px;
