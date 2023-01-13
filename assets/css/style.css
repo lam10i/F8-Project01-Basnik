@@ -1,9 +1,3 @@
-.test {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 :root {
     --text-color: #333;
     --header-fixed-height: 90px;
